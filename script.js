@@ -34,7 +34,7 @@ function timeWedding(){
         dia = ' dias '
     }
     
-    const textHtml = document.querySelector('#titulo').innerHTML = 'Entre 22/01/2021 até agora já se passaram ' + timeYears + ano + Math.trunc(timeMouths) + mes + timeDays + dia + '!';
+    const textHtml = document.querySelector('#titulo').innerHTML = 'Entre 22/01/2021 até agora já se passaram ' + timeYears + ano + Math.trunc(timeMouths) + mes +' e ' + timeDays + dia + '!';
     return textHtml;
     
 }    
