@@ -1,0 +1,51 @@
+:root{
+    --color-primary: #4169E1;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/fundo-casamento.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 75px;
+    margin-bottom: 90px;
+    color: var(--color-primary);
+    text-shadow: 0 0 3px #191970;
+}
+
+h2 {
+    font-size: 45px;
+    color: var(--color-primary);
+    margin-bottom: 20px;
+    text-shadow: 0 0 3px #191970;
+}
+
+#titulo {
+    font-size: 45px;
+    color: var(--color-primary);
+    text-shadow: 0 0 3px #191970;
+    font-weight: bold;
+}
